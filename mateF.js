@@ -1,3 +1,16 @@
+llamar();
+function llamar() 
+{
+    var contra = prompt("Escriba la contraseña por favor");
+    var confir = "Con esta pagina me salvo";
+
+    if (contra === confir) {
+        alert("bien");
+    } else {
+        location.reload();
+    }
+}
+
 var vf = document.getElementById("valorFuturo");
 var vp = document.getElementById("valorPresente");
 var iComp = document.getElementById("interesCompuesto");
